@@ -3,7 +3,7 @@ package handlers
 import (
 	"context"
 
-	pb "github.com/techxmind/keyservice/interface-defs"
+	pb "github.com/duxiu-robot/keyservice/interface-defs"
 )
 
 // NewService returns a naïve, stateless implementation of Service.

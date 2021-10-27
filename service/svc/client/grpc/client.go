@@ -16,8 +16,8 @@ import (
 	grpctransport "github.com/go-kit/kit/transport/grpc"
 
 	// This Service
-	pb "github.com/techxmind/keyservice/interface-defs"
-	"github.com/techxmind/keyservice/service/svc"
+	pb "github.com/duxiu-robot/keyservice/interface-defs"
+	"github.com/duxiu-robot/keyservice/service/svc"
 )
 
 // New returns an service backed by a gRPC client connection. It is the

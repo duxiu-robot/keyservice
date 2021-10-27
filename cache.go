@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/sync/singleflight"
 
-	"github.com/techxmind/go-utils/fileutil"
+	"github.com/duxiu-robot/go-utils/fileutil"
 )
 
 var (
@@ -23,8 +23,9 @@ type Cache interface {
 
 type nilCache struct {
 }
-func (c *nilCache) Load(id string) ([]byte, error) { return nil, nil }
-func (c *nilCache) Store(id string, data []byte) error { return nil}
+
+func (c *nilCache) Load(id string) ([]byte, error)     { return nil, nil }
+func (c *nilCache) Store(id string, data []byte) error { return nil }
 
 type fileCache struct {
 	dir string

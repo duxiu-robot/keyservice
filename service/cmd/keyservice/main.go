@@ -9,8 +9,8 @@ import (
 	"flag"
 
 	// This Service
-	"github.com/techxmind/keyservice/config"
-	"github.com/techxmind/keyservice/service/svc/server"
+	"github.com/duxiu-robot/keyservice/config"
+	"github.com/duxiu-robot/keyservice/service/svc/server"
 )
 
 var (

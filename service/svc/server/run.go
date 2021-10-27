@@ -15,10 +15,10 @@ import (
 	"google.golang.org/grpc"
 
 	// This Service
-	"github.com/techxmind/keyservice/config"
-	pb "github.com/techxmind/keyservice/interface-defs"
-	"github.com/techxmind/keyservice/service/handlers"
-	"github.com/techxmind/keyservice/service/svc"
+	"github.com/duxiu-robot/keyservice/config"
+	pb "github.com/duxiu-robot/keyservice/interface-defs"
+	"github.com/duxiu-robot/keyservice/service/handlers"
+	"github.com/duxiu-robot/keyservice/service/svc"
 )
 
 func NewEndpoints(service pb.KeyServiceServer) svc.Endpoints {

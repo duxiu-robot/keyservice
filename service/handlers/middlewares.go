@@ -1,10 +1,10 @@
 package handlers
 
 import (
-	"github.com/techxmind/keyservice/metrics"
-	pb "github.com/techxmind/keyservice/interface-defs"
-	"github.com/techxmind/logger"
-	"github.com/techxmind/keyservice/service/svc"
+	pb "github.com/duxiu-robot/keyservice/interface-defs"
+	"github.com/duxiu-robot/keyservice/metrics"
+	"github.com/duxiu-robot/keyservice/service/svc"
+	"github.com/duxiu-robot/logger"
 	"net/http"
 )
 

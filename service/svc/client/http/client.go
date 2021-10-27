@@ -24,8 +24,8 @@ import (
 	"github.com/pkg/errors"
 
 	// This Service
-	pb "github.com/techxmind/keyservice/interface-defs"
-	"github.com/techxmind/keyservice/service/svc"
+	pb "github.com/duxiu-robot/keyservice/interface-defs"
+	"github.com/duxiu-robot/keyservice/service/svc"
 )
 
 var (

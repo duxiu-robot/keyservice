@@ -28,7 +28,7 @@ import (
 	"github.com/pkg/errors"
 
 	// This service
-	pb "github.com/techxmind/keyservice/interface-defs"
+	pb "github.com/duxiu-robot/keyservice/interface-defs"
 )
 
 const contentType = "application/json; charset=utf-8"

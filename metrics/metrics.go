@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/techxmind/logger"
+	"github.com/duxiu-robot/logger"
 	"github.com/go-kit/kit/endpoint"
 	"github.com/go-kit/kit/metrics"
 	"github.com/go-kit/kit/metrics/prometheus"

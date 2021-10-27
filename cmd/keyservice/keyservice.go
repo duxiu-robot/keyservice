@@ -4,14 +4,12 @@ import (
 	"encoding/base64"
 	"flag"
 	"fmt"
-	"github.com/techxmind/keyservice"
+	"github.com/duxiu-robot/keyservice"
 	"io/ioutil"
 	"os"
 )
 
-var (
-
-)
+var ()
 
 func main() {
 	ksFile := flag.String("keystore", "", "keystore file")

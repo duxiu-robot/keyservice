@@ -16,7 +16,7 @@ import (
 
 	"github.com/go-kit/kit/endpoint"
 
-	pb "github.com/techxmind/keyservice/interface-defs"
+	pb "github.com/duxiu-robot/keyservice/interface-defs"
 )
 
 // Endpoints collects all of the endpoints that compose an add service. It's

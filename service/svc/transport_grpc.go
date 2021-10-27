@@ -17,7 +17,7 @@ import (
 	grpctransport "github.com/go-kit/kit/transport/grpc"
 
 	// This Service
-	pb "github.com/techxmind/keyservice/interface-defs"
+	pb "github.com/duxiu-robot/keyservice/interface-defs"
 )
 
 // MakeGRPCServer makes a set of endpoints available as a gRPC KeyServiceServer.
